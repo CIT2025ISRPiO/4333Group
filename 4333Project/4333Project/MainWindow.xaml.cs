@@ -74,5 +74,11 @@ namespace _4333Project
             _4333_Pavlova _4333_Pavlova = new _4333_Pavlova();
             _4333_Pavlova.Show();
         }
+        private void RailButton_Click(object sender, RoutedEventArgs e)
+        {
+            _4333_Galiev _4333_Galiev = new _4333_Galiev();
+            _4333_Galiev.Show();
+
+        }
     }
 }
