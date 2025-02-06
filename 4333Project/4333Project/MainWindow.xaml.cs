@@ -56,6 +56,11 @@ namespace _4333Project
             _4333_Zagumenov _4333_Zagumenov = new _4333_Zagumenov();
             _4333_Zagumenov.Show();
         }
+        private void MironovButton_Click(object sender, RoutedEventArgs e)
+        {
+            _4333_Mironov _4333_Mironov = new _4333_Mironov();
+            _4333_Mironov.Show();
+        }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
