@@ -33,7 +33,8 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Button Width="100" Content="7" x:Name="ArturButton" Grid.Row="6" Background="Green" Click="ArturButton_Click"/>
-        <Button Width="100" Grid.Row="7" Background="BlueViolet" Click="Button_Click_1"  >8</Button>
+        <Button Width="100" Grid.Row="7" Background="BlueViolet">8</Button>
+        <Button Width="100" Content="11" x:Name="_4333_Kolobov" Grid.Row="10" Background="Crimson" Click="_4333_Kolobov_Click"/>
         <Button Width="100" Content="12" x:Name="DanilaBaton" Grid.Row="11" Background="LightSalmon" Click="DanilaBaton_Click"/>
         <Button Width="100" Content="13" x:Name="EgorButton" Grid.Row="12" Background="Blue" Click="EgorButton_Click"/>
         <Button Width="100" Content="17" x:Name="_4333_Mustafina" Grid.Row="16" Background="Crimson" Click="_4333_Mustafina_Click"/>
