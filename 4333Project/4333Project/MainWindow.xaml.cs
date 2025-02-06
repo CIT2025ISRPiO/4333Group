@@ -50,11 +50,7 @@ namespace _4333Project
             _4333_Loparev.Show();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
+        
         private void ArturButton_Click(object sender, RoutedEventArgs e)
         {
             _4333_Zagumenov _4333_Zagumenov = new _4333_Zagumenov();
@@ -71,6 +67,12 @@ namespace _4333Project
         {
             var w = new _4333_Mustafina();
             w.Show();
+        }
+
+        private void _4333_Kolobov_Click(object sender, RoutedEventArgs e)
+        {
+            Kolobov kolobov = new Kolobov();
+            kolobov.Show();
         }
     }
 }
