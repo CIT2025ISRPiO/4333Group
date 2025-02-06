@@ -32,6 +32,12 @@ namespace _4333Project
             
         }
 
+        private void Ivanova_Click(object sender, RoutedEventArgs e)
+        {
+            _4333_Ivanova _4333_Ivanova = new _4333_Ivanova();
+            _4333_Ivanova.Show();
+        }
+
         private void ButtonDana_Click(object sender, RoutedEventArgs e)
         {
             _4333_Хакимуллина _4333_Хакимуллина = new _4333_Хакимуллина();
