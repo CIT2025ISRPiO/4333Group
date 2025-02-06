@@ -74,5 +74,10 @@ namespace _4333Project
             _4333_Pavlova _4333_Pavlova = new _4333_Pavlova();
             _4333_Pavlova.Show();
         }
+        private void Garifullin4333_Click(object sender, RoutedEventArgs e)
+        {
+            _4333_Garifullin window = new _4333_Garifullin();
+            window.Show();
+        }
     }
 }
