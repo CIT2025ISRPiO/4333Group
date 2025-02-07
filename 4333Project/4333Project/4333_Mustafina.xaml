@@ -9,5 +9,9 @@
     <StackPanel VerticalAlignment="Center">
         <TextBlock HorizontalAlignment="Center" FontSize="30">Мустафина Зилия</TextBlock>
         <TextBlock HorizontalAlignment="Center" FontSize="30">18 лет</TextBlock>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button x:Name="ImportButton" Content="Импорт данных" Margin="0 10 30 0" Width="120" Click="ImportButton_Click"/>
+            <Button x:Name="ExportButton" Content="Экспорт в Excel" Margin="30 10 0  0" Width="120" Click="ExportButton_Click"/>
+        </StackPanel>
     </StackPanel>
 </Window>
