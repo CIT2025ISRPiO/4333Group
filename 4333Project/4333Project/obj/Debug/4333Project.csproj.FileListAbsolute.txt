@@ -56,3 +56,36 @@ C:\Users\89046\Desktop\ISRPO\-\4333Project\4333Project\obj\Debug\4333Project.g.r
 C:\Users\89046\Desktop\ISRPO\-\4333Project\4333Project\obj\Debug\_4333Project.Properties.Resources.resources
 C:\Users\89046\Desktop\ISRPO\-\4333Project\4333Project\obj\Debug\4333Project.csproj.GenerateResource.cache
 C:\Users\89046\Desktop\ISRPO\-\4333Project\4333Project\obj\Debug\4333Project.csproj.CoreCompileInputs.cache
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333Project.csproj.AssemblyReference.cache
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Loginov.g.cs
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Loparev.g.cs
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Mustafina.g.cs
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Pavlova.g.cs
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Valeev.g.cs
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Zagumenov.g.cs
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Зарифуллина.g.cs
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Хакимуллина.g.cs
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Яфасова.g.cs
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\MainWindow.g.cs
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\App.g.cs
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333Project_MarkupCompile.cache
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333Project_MarkupCompile.lref
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333Project.exe
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333Project.pdb
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\bin\Debug\4333Project.exe.config
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\bin\Debug\4333Project.exe
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\bin\Debug\4333Project.pdb
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Loginov.baml
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Loparev.baml
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Mustafina.baml
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Pavlova.baml
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Zagumenov.baml
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Зарифуллина.baml
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Хакимуллина.baml
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Яфасова.baml
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\MainWindow.baml
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333_Valeev.baml
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333Project.g.resources
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\_4333Project.Properties.Resources.resources
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333Project.csproj.GenerateResource.cache
+D:\MyDiffFiles\КИТ\3 курс\2 семестр\ИСРПО\лр-01\4333Group\4333Project\4333Project\obj\Debug\4333Project.csproj.CoreCompileInputs.cache
