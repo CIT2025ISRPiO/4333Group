@@ -32,6 +32,7 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+        <Button Width="100" Content="2"  x:Name="ValeevButton" Grid.Row="2" Background="LightBlue" Click="ValeevButton_Click"/>
         <Button Width="100" Content="7" x:Name="ArturButton" Grid.Row="6" Background="Green" Click="ArturButton_Click"/>
         <Button Width="100" Grid.Row="7" Background="BlueViolet" Click="Button_Click_1"  >8</Button>
         <Button Width="100" Content="12" x:Name="DanilaBaton" Grid.Row="11" Background="LightSalmon" Click="DanilaBaton_Click"/>

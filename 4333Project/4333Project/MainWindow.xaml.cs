@@ -74,5 +74,11 @@ namespace _4333Project
             _4333_Pavlova _4333_Pavlova = new _4333_Pavlova();
             _4333_Pavlova.Show();
         }
+
+        private void ValeevButton_Click(object sender, RoutedEventArgs e)
+        {
+            _4333_Valeev _4333_Valeev = new _4333_Valeev();
+            _4333_Valeev.Show();
+        }
     }
 }
