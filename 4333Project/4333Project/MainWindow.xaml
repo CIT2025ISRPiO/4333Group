@@ -40,5 +40,6 @@
         <Button Width="100" Content="18" x:Name="Pavlova4333" Grid.Row="17" Background="Aqua" Click="Pavlova4333_Click"/>
         <Button x:Name="ButtonDana" Grid.Row="21"  Content="22"   VerticalAlignment="Top" Click="ButtonDana_Click" Background="#FFF277FF" Width="100"/>
         <Button Grid.Row="23"  Content="23" Foreground="White"  VerticalAlignment="Top"  Background="#f005" Width="100" Click="Button_Click_1"/>
+        <Button Content="20" Width="100" Grid.Row="19" Background="Gold" Click="ButtonMaksim_Click" />
     </Grid>
 </Window>

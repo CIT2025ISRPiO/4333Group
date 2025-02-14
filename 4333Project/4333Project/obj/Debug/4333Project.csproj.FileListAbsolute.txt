@@ -56,3 +56,9 @@ C:\Users\89046\Desktop\ISRPO\-\4333Project\4333Project\obj\Debug\4333Project.g.r
 C:\Users\89046\Desktop\ISRPO\-\4333Project\4333Project\obj\Debug\_4333Project.Properties.Resources.resources
 C:\Users\89046\Desktop\ISRPO\-\4333Project\4333Project\obj\Debug\4333Project.csproj.GenerateResource.cache
 C:\Users\89046\Desktop\ISRPO\-\4333Project\4333Project\obj\Debug\4333Project.csproj.CoreCompileInputs.cache
+C:\4333Group\4333Project\4333Project\obj\Debug\4333_Mustafina.g.cs
+C:\4333Group\4333Project\4333Project\obj\Debug\4333_Pavlova.g.cs
+C:\4333Group\4333Project\4333Project\obj\Debug\4333_Tazyukov.g.cs
+C:\4333Group\4333Project\4333Project\obj\Debug\4333_Mustafina.baml
+C:\4333Group\4333Project\4333Project\obj\Debug\4333_Pavlova.baml
+C:\4333Group\4333Project\4333Project\obj\Debug\4333_Tazyukov.baml
