@@ -56,3 +56,36 @@ C:\Users\89046\Desktop\ISRPO\-\4333Project\4333Project\obj\Debug\4333Project.g.r
 C:\Users\89046\Desktop\ISRPO\-\4333Project\4333Project\obj\Debug\_4333Project.Properties.Resources.resources
 C:\Users\89046\Desktop\ISRPO\-\4333Project\4333Project\obj\Debug\4333Project.csproj.GenerateResource.cache
 C:\Users\89046\Desktop\ISRPO\-\4333Project\4333Project\obj\Debug\4333Project.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\bin\Debug\4333Project.exe.config
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\bin\Debug\4333Project.exe
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\bin\Debug\4333Project.pdb
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333Project.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Ivanova.g.cs
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Loginov.g.cs
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Loparev.g.cs
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Mustafina.g.cs
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Pavlova.g.cs
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Zagumenov.g.cs
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Зарифуллина.g.cs
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Хакимуллина.g.cs
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Яфасова.g.cs
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\App.g.cs
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333Project_MarkupCompile.cache
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333Project_MarkupCompile.lref
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Loginov.baml
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Loparev.baml
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Mustafina.baml
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Pavlova.baml
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Zagumenov.baml
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Зарифуллина.baml
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Хакимуллина.baml
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Яфасова.baml
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\MainWindow.baml
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333_Ivanova.baml
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333Project.g.resources
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\_4333Project.Properties.Resources.resources
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333Project.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333Project.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333Project.exe
+C:\Users\HP\Desktop\КИТ\3 курс\ИСРПО\Arthur gay\Ivanova\4333Project\4333Project\obj\Debug\4333Project.pdb

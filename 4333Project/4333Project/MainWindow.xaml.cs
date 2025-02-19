@@ -23,6 +23,14 @@ namespace _4333Project
         public MainWindow()
         {
             InitializeComponent();
+
+            Ivanova4333.Click += Ivanova4333_Click;
+        }
+
+        private void Ivanova4333_Click(object sender, RoutedEventArgs e)
+        {
+            _4333_Ivanova _4333_ivanova = new _4333_Ivanova();
+            _4333_ivanova.Show();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
