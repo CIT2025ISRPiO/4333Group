@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|solutionrelative:4333project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|c:\\users\\hp\\desktop\\\u043A\u0438\u0442\\3 \u043A\u0443\u0440\u0441\\\u0438\u0441\u0440\u043F\u043E\\arthur gay\\ivanova\\4333project\\4333project\\4333_ivanova.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|solutionrelative:4333project\\4333_ivanova.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|C:\\Users\\HP\\Desktop\\\u041A\u0418\u0422\\3 \u043A\u0443\u0440\u0441\\\u0418\u0421\u0420\u041F\u041E\\Arthur gay\\Ivanova\\4333Project\\4333project\\4333_mustafina.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|solutionrelative:4333project\\4333_mustafina.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,24 +43,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "4333_Ivanova.xaml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u041A\u0418\u0422\\3 \u043A\u0443\u0440\u0441\\\u0418\u0421\u0420\u041F\u041E\\Arthur gay\\Ivanova\\4333Project\\4333Project\\4333_Ivanova.xaml",
+              "RelativeDocumentMoniker": "4333Project\\4333_Ivanova.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u041A\u0418\u0422\\3 \u043A\u0443\u0440\u0441\\\u0418\u0421\u0420\u041F\u041E\\Arthur gay\\Ivanova\\4333Project\\4333Project\\4333_Ivanova.xaml",
+              "RelativeToolTip": "4333Project\\4333_Ivanova.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-19T10:32:11.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "4333_Mustafina.xaml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u041A\u0418\u0422\\3 \u043A\u0443\u0440\u0441\\\u0418\u0421\u0420\u041F\u041E\\Arthur gay\\Ivanova\\4333Project\\4333Project\\4333_Mustafina.xaml",
               "RelativeDocumentMoniker": "4333Project\\4333_Mustafina.xaml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\\u041A\u0418\u0422\\3 \u043A\u0443\u0440\u0441\\\u0418\u0421\u0420\u041F\u041E\\Arthur gay\\Ivanova\\4333Project\\4333Project\\4333_Mustafina.xaml",
               "RelativeToolTip": "4333Project\\4333_Mustafina.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-04T16:26:51.067Z"
+              "WhenOpened": "2025-02-04T16:26:51.067Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "4333_Pavlova.xaml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u041A\u0418\u0422\\3 \u043A\u0443\u0440\u0441\\\u0418\u0421\u0420\u041F\u041E\\Arthur gay\\Ivanova\\4333Project\\4333Project\\4333_Pavlova.xaml",
               "RelativeDocumentMoniker": "4333Project\\4333_Pavlova.xaml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\\u041A\u0418\u0422\\3 \u043A\u0443\u0440\u0441\\\u0418\u0421\u0420\u041F\u041E\\Arthur gay\\Ivanova\\4333Project\\4333Project\\4333_Pavlova.xaml",
               "RelativeToolTip": "4333Project\\4333_Pavlova.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-04T16:26:45.492Z"
+              "WhenOpened": "2025-02-04T16:26:45.492Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,8 +82,8 @@
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u041A\u0418\u0422\\3 \u043A\u0443\u0440\u0441\\\u0418\u0421\u0420\u041F\u041E\\Arthur gay\\Ivanova\\4333Project\\4333Project\\MainWindow.xaml",
               "RelativeDocumentMoniker": "4333Project\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\\u041A\u0418\u0422\\3 \u043A\u0443\u0440\u0441\\\u0418\u0421\u0420\u041F\u041E\\Arthur gay\\Ivanova\\4333Project\\4333Project\\MainWindow.xaml",
-              "RelativeToolTip": "4333Project\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\\u041A\u0418\u0422\\3 \u043A\u0443\u0440\u0441\\\u0418\u0421\u0420\u041F\u041E\\Arthur gay\\Ivanova\\4333Project\\4333Project\\MainWindow.xaml*",
+              "RelativeToolTip": "4333Project\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-04T16:22:52.777Z",
               "EditorCaption": ""
@@ -78,14 +96,14 @@
               "RelativeDocumentMoniker": "4333Project\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\\u041A\u0418\u0422\\3 \u043A\u0443\u0440\u0441\\\u0418\u0421\u0420\u041F\u041E\\Arthur gay\\Ivanova\\4333Project\\4333Project\\MainWindow.xaml.cs",
               "RelativeToolTip": "4333Project\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T16:31:51.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "4333_\u042F\u0444\u0430\u0441\u043E\u0432\u0430.xaml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\\u041A\u0418\u0422\\3 \u043A\u0443\u0440\u0441\\\u0418\u0421\u0420\u041F\u041E\\Arthur gay\\Ivanova\\4333Project\\4333Project\\4333_\u042F\u0444\u0430\u0441\u043E\u0432\u0430.xaml",
               "RelativeDocumentMoniker": "4333Project\\4333_\u042F\u0444\u0430\u0441\u043E\u0432\u0430.xaml",

@@ -29,7 +29,8 @@ namespace _4333Project
 
         private void Ivanova4333_Click(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            _4333_Ivanova _4333_ivanova = new _4333_Ivanova();
+            _4333_ivanova.Show();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
