@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,5 +25,23 @@ namespace _4333Project
         {
             InitializeComponent();
         }
+
+        private void ButtonImport_Click(object sender, RoutedEventArgs e)
+        {
+            ExelReader.Read(
+                new OpenFileDialog()
+                {
+                    DefaultExt = "*.xls;*.xlsx",
+                    Filter = "файл Excel (Spisok.xlsx)|*.xlsx",
+                    Title = "Выберите файл базы данных"
+                }.FileName
+            );
+
+            const string connectionString = "connection string";
+
+            using(SqlConnection connection = new SqlConnection(connectionString))
+            {
+            }
+
     }
 }

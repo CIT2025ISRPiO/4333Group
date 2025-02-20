@@ -6,10 +6,26 @@
         xmlns:local="clr-namespace:_4333Project"
         mc:Ignorable="d"
         Title="_4333_Tazyukov" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="VerticalAlignment" 
+                    Value="Top" />
+            <Setter Property="HorizontalAlignment" 
+                    Value="Left" />
+        </Style>
+    </Window.Resources>
     <Grid>
-        <TextBlock VerticalAlignment="Center" 
+        <TextBlock VerticalAlignment="Top" 
                    HorizontalAlignment="Center" 
                    Text="Максим, 19" 
-                   FontSize="44" />
+                   FontSize="15" />
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Import data" 
+                    Margin="0 0 0 0"
+                    Click="ButtonImport_Click" />
+            <Button Content="Export data" 
+                    Margin="16 0 0 0" />
+        </StackPanel>
+        
     </Grid>
 </Window>
