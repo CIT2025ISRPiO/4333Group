@@ -14,6 +14,10 @@
                 <Button x:Name="BnImport" Width="150" Background="Yellow" Height="40" Margin="10" FontSize="18" Click="BnImport_Click">Импорт данных</Button>
                 <Button Width="150" Height="40" Background="ForestGreen" FontSize="18" Margin="10" Click="Button_Click" >Экспорт в Excel</Button>
             </WrapPanel>
+            <WrapPanel HorizontalAlignment="Center">
+                <Button Width="150" Background="Yellow" Height="40" Margin="10" FontSize="14" Click="JsonImport" >Импорт JSON данных</Button>
+                <Button Width="150" Height="40" Background="Aquamarine" FontSize="18" Margin="10" Click="WordExport"  >Экспорт в Word</Button>
+            </WrapPanel>
         </StackPanel>
     </Grid>
 </Window>

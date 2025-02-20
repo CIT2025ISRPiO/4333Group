@@ -12,15 +12,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Excel = Microsoft.Office.Interop.Excel;
-
+using Word = Microsoft.Office.Interop.Word;
 using Microsoft.Win32;
+using Microsoft.Office.Interop.Word;
+using System.IO;
+using System.Data.Entity.Core.Common.CommandTrees.ExpressionBuilder;
+using Newtonsoft.Json;
 
 namespace _4333Project
 {
     /// <summary>
     /// Логика взаимодействия для _4333_Garifullin.xaml
     /// </summary>
-    public partial class _4333_Garifullin : Window
+    public partial class _4333_Garifullin : System.Windows.Window
     {
         public _4333_Garifullin()
         {
@@ -94,7 +98,7 @@ namespace _4333Project
             Excel.Workbook wb = app.Workbooks.Add(Type.Missing);
             int g = 0;
             var StatusRents = allRents.GroupBy(s => s.Statuses).ToList();
-            foreach ( string name in StatusNames)
+            foreach (string name in StatusNames)
             {
                 int startRowIndex = 1;
                 Excel.Worksheet worksheet = app.Worksheets.Item[g + 1];
@@ -136,6 +140,111 @@ namespace _4333Project
                 }
             }
             app.Visible = true;
+        }
+
+        private void WordExport(object sender, RoutedEventArgs e)
+        {
+            List<Rent> allRents;
+            using (UserEntities usersEntitiesEntities = new UserEntities())
+            {
+                allRents = usersEntitiesEntities.Rents.ToList().OrderBy(s => s.Statuses).ToList();
+                var RentGroups = allRents.GroupBy(s => s.Statuses).ToList();
+                var app = new Word.Application();
+                Word.Document document = app.Documents.Add();
+                foreach (var group in RentGroups)
+                {
+                    Word.Paragraph paragraph = document.Paragraphs.Add();
+                    Word.Range range = paragraph.Range;
+                    range.Text = Convert.ToString(allRents.Where(g => g.Statuses == group.Key).FirstOrDefault().Statuses);
+                    paragraph.set_Style("Заголовок 2");
+                    range.InsertParagraphAfter();
+                    Word.Paragraph tableParagraph = document.Paragraphs.Add();
+                    Word.Range tableRange = tableParagraph.Range;
+                    Word.Table RentsTable = document.Tables.Add(tableRange, group.Count() + 1, 5);
+                    RentsTable.Borders.InsideLineStyle =
+                    RentsTable.Borders.OutsideLineStyle =
+                    Word.WdLineStyle.wdLineStyleSingle;
+                    RentsTable.Range.Cells.VerticalAlignment =
+                    Word.WdCellVerticalAlignment.wdCellAlignVerticalCenter;
+                    Word.Range cellRange;
+                    cellRange = RentsTable.Cell(1, 1).Range;
+                    cellRange.Text = "Id";
+                    cellRange = RentsTable.Cell(1, 2).Range;
+                    cellRange.Text = "Код заказа";
+                    cellRange = RentsTable.Cell(1, 3).Range;
+                    cellRange.Text = "Дата создания";
+                    cellRange = RentsTable.Cell(1, 4).Range;
+                    cellRange.Text = "Код клиента";
+                    cellRange = RentsTable.Cell(1, 5).Range;
+                    cellRange.Text = "Услуги";
+                    RentsTable.Rows[1].Range.Bold = 1;
+                    RentsTable.Rows[1].Range.ParagraphFormat.Alignment =
+                    Word.WdParagraphAlignment.wdAlignParagraphCenter;
+                    int i = 1;
+                    foreach (var rent in group)
+                    {
+                        cellRange = RentsTable.Cell(i + 1, 1).Range;
+                        cellRange.Text = rent.Id.ToString();
+                        cellRange.ParagraphFormat.Alignment =
+                        Word.WdParagraphAlignment.wdAlignParagraphCenter;
+                        cellRange = RentsTable.Cell(i + 1, 2).Range;
+                        cellRange.Text = rent.Rent_Code;
+                        cellRange.ParagraphFormat.Alignment =
+                        Word.WdParagraphAlignment.wdAlignParagraphCenter;
+                        cellRange = RentsTable.Cell(i + 1, 3).Range;
+                        cellRange.Text = rent.Date_of_creation;
+                        cellRange.ParagraphFormat.Alignment =
+                        Word.WdParagraphAlignment.wdAlignParagraphCenter;
+                        cellRange = RentsTable.Cell(i + 1, 4).Range;
+                        cellRange.Text = rent.Client_Code.ToString();
+                        cellRange.ParagraphFormat.Alignment =
+                        Word.WdParagraphAlignment.wdAlignParagraphCenter;
+                        cellRange = RentsTable.Cell(i + 1, 5).Range;
+                        cellRange.Text = rent.Servicess;
+                        cellRange.ParagraphFormat.Alignment =
+                        Word.WdParagraphAlignment.wdAlignParagraphCenter;
+                        i++;
+                    }
+                    document.Words.Last.InsertBreak(Word.WdBreakType.wdPageBreak);
+                }
+                app.Visible = true;
+            }
+
+        }
+
+        private void JsonImport(object sender, RoutedEventArgs e)
+        {
+            List<Rent> allRents = new List<Rent>();
+            OpenFileDialog ofd = new OpenFileDialog()
+            {
+                DefaultExt = "*.json",
+                Filter = "файл Json (Spisok.json)|*.json",
+                Title = "Выберите файл базы данных"
+            };
+            if (!(ofd.ShowDialog() == true))
+                return;
+            var json = File.ReadAllText(ofd.FileName);
+                allRents = JsonConvert.DeserializeObject<List<Rent>>(json);
+                using (UserEntities usersEntities = new UserEntities())
+                {
+                    foreach (var rent in allRents)
+                    {
+                            Rent u = new Rent()
+                            {
+                                Id = Convert.ToInt32(rent.Id),
+                                Rent_Code = rent.Rent_Code,
+                                Date_of_creation = rent.Date_of_creation,
+                                Creation_Time = rent.Creation_Time,
+                                Client_Code = Convert.ToInt32(rent.Client_Code),
+                                Servicess = rent.Servicess,
+                                Statuses = rent.Statuses,
+                                Date_of_closing = rent.Date_of_closing,
+                                Rent_time = rent.Rent_time,
+                            };
+                        usersEntities.Rents.Add(u);
+                    }
+                    usersEntities.SaveChanges();
+                }
         }
     }
 }

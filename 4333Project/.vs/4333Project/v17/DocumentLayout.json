@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|solutionrelative:4333project\\4333_garifullin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|c:\\users\\ilshat\\desktop\\\u0438\u0441\u0440\u043F\u043E\\4333group\\4333project\\4333project\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|solutionrelative:4333project\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|C:\\Users\\ilshat\\Desktop\\\u0418\u0421\u0420\u041F\u041E\\4333Group\\4333Project\\4333project\\4333_garifullin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|solutionrelative:4333project\\4333_garifullin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|C:\\Users\\ilshat\\Desktop\\\u0418\u0421\u0420\u041F\u041E\\4333Group\\4333Project\\4333project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|solutionrelative:4333project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|C:\\Users\\ilshat\\Desktop\\\u0418\u0421\u0420\u041F\u041E\\4333Group\\4333Project\\4333project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|solutionrelative:4333project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|C:\\Users\\ilshat\\Desktop\\\u0418\u0421\u0420\u041F\u041E\\4333Group\\4333Project\\4333project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C1E3715-3BCE-4907-9DCD-06782ECC55D9}|4333Project\\4333Project.csproj|solutionrelative:4333project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Rent.cs",
+              "DocumentMoniker": "C:\\Users\\ilshat\\Desktop\\\u0418\u0421\u0420\u041F\u041E\\4333Group\\4333Project\\4333Project\\Rent.cs",
+              "RelativeDocumentMoniker": "4333Project\\Rent.cs",
+              "ToolTip": "C:\\Users\\ilshat\\Desktop\\\u0418\u0421\u0420\u041F\u041E\\4333Group\\4333Project\\4333Project\\Rent.cs",
+              "RelativeToolTip": "4333Project\\Rent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T14:43:43.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,14 +57,14 @@
               "RelativeDocumentMoniker": "4333Project\\4333_Garifullin.xaml.cs",
               "ToolTip": "C:\\Users\\ilshat\\Desktop\\\u0418\u0421\u0420\u041F\u041E\\4333Group\\4333Project\\4333Project\\4333_Garifullin.xaml.cs",
               "RelativeToolTip": "4333Project\\4333_Garifullin.xaml.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAANwAAAAAAAAAAAAAAOAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T13:24:25.626Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "4333_Garifullin.xaml",
               "DocumentMoniker": "C:\\Users\\ilshat\\Desktop\\\u0418\u0421\u0420\u041F\u041E\\4333Group\\4333Project\\4333Project\\4333_Garifullin.xaml",
               "RelativeDocumentMoniker": "4333Project\\4333_Garifullin.xaml",
@@ -66,11 +83,12 @@
               "ToolTip": "C:\\Users\\ilshat\\Desktop\\\u0418\u0421\u0420\u041F\u041E\\4333Group\\4333Project\\4333Project\\MainWindow.xaml",
               "RelativeToolTip": "4333Project\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-04T16:22:52.777Z"
+              "WhenOpened": "2025-02-04T16:22:52.777Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ilshat\\Desktop\\\u0418\u0421\u0420\u041F\u041E\\4333Group\\4333Project\\4333Project\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "4333Project\\MainWindow.xaml.cs",
@@ -78,7 +96,8 @@
               "RelativeToolTip": "4333Project\\MainWindow.xaml.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAE4AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T16:31:51.677Z"
+              "WhenOpened": "2025-01-11T16:31:51.677Z",
+              "EditorCaption": ""
             }
           ]
         }
