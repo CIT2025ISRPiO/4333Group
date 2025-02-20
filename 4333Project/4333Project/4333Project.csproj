@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="User.cs" />
     <Page Include="4333_Loginov.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

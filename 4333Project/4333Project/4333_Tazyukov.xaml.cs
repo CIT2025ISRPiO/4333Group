@@ -28,20 +28,26 @@ namespace _4333Project
 
         private void ButtonImport_Click(object sender, RoutedEventArgs e)
         {
-            ExelReader.Read(
-                new OpenFileDialog()
-                {
-                    DefaultExt = "*.xls;*.xlsx",
-                    Filter = "файл Excel (Spisok.xlsx)|*.xlsx",
-                    Title = "Выберите файл базы данных"
-                }.FileName
-            );
+            OpenFileDialog openFileDialog = new OpenFileDialog()
+            {
+                DefaultExt = "*.xls;*.xlsx",
+                Filter = "файл Excel (Spisok.xlsx)|*.xlsx",
+                Title = "Выберите файл базы данных"
+            };
+            openFileDialog.ShowDialog();
+            var list = ExelReader.Read(openFileDialog.FileName);
 
-            const string connectionString = "connection string";
+            const string connectionString = "Server=DESKTOP-40D8MST\\Maksim;Database=test_DB;Trusted_Connection=True;";
 
             using(SqlConnection connection = new SqlConnection(connectionString))
             {
-            }
+                //DataBaseInteractor.Copy(list, connection);
 
+                using(SqlCommand command = new SqlCommand("INSERT INTO user VALUES (1, 2, 3, 4, 5)", connection))
+                {
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }

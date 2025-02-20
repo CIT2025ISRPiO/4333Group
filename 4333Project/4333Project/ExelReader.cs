@@ -20,7 +20,10 @@ namespace _4333Project
             int _columns = (int)lastCell.Column;
             int _rows = (int)lastCell.Row;
             string[,] list = new string[_rows, _columns];
-            for(int j = 0; j < _columns; j++) for(int i = 0; i < _rows; i++) list[i, j] = ObjWorkSheet.Cells[i + 1, j + 1].Text;
+            for (int i = 0; i < _rows; i++) for (int j = 0; j < _columns; j++)
+            {
+                list[i, j] = ObjWorkSheet.Cells[i + 1, j + 1].Text;
+            }
             ObjWorkBook.Close(false, Type.Missing, Type.Missing);
             ObjWorkExcel.Quit();
             GC.Collect();
