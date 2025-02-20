@@ -10,6 +10,10 @@
         <StackPanel VerticalAlignment="Center">
             <TextBlock HorizontalAlignment="Center" FontSize="30">Гарифуллин Имран</TextBlock>
             <TextBlock HorizontalAlignment="Center" FontSize="30">18 лет</TextBlock>
+            <WrapPanel HorizontalAlignment="Center">
+                <Button x:Name="BnImport" Width="150" Background="Yellow" Height="40" Margin="10" FontSize="18" Click="BnImport_Click">Импорт данных</Button>
+                <Button Width="150" Height="40" Background="ForestGreen" FontSize="18" Margin="10" Click="Button_Click" >Экспорт в Excel</Button>
+            </WrapPanel>
         </StackPanel>
     </Grid>
 </Window>

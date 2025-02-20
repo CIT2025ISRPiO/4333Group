@@ -89,3 +89,11 @@ C:\Users\ilshat\Desktop\ИСРПО\4333Group\4333Project\4333Project\obj\Debug\4
 C:\Users\ilshat\Desktop\ИСРПО\4333Group\4333Project\4333Project\obj\Debug\4333Project.csproj.CoreCompileInputs.cache
 C:\Users\ilshat\Desktop\ИСРПО\4333Group\4333Project\4333Project\obj\Debug\4333Project.exe
 C:\Users\ilshat\Desktop\ИСРПО\4333Group\4333Project\4333Project\obj\Debug\4333Project.pdb
+C:\Users\ilshat\Desktop\ИСРПО\4333Group\4333Project\4333Project\obj\Debug\4333Project.csproj.ResolveComReference.cache
+C:\Users\ilshat\Desktop\ИСРПО\4333Group\4333Project\4333Project\bin\Debug\EntityFramework.dll
+C:\Users\ilshat\Desktop\ИСРПО\4333Group\4333Project\4333Project\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ilshat\Desktop\ИСРПО\4333Group\4333Project\4333Project\bin\Debug\EntityFramework.xml
+C:\Users\ilshat\Desktop\ИСРПО\4333Group\4333Project\4333Project\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ilshat\Desktop\ИСРПО\4333Group\4333Project\4333Project\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\ilshat\Desktop\ИСРПО\4333Group\4333Project\4333Project\obj\Debug\4333Project_Content.g.cs
+C:\Users\ilshat\Desktop\ИСРПО\4333Group\4333Project\4333Project\obj\Debug\4333Proj.2A5B7193.Up2Date
