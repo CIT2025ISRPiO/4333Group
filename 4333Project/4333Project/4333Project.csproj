@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Instruction.cs" />
     <Compile Include="User.cs" />
     <Page Include="4333_Loginov.xaml">
       <SubType>Designer</SubType>
@@ -127,8 +128,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="DataBaseInteractor.cs" />
-    <Compile Include="ExelReader.cs" />
+    <Compile Include="DBInteractor.cs" />
+    <Compile Include="ExcelReader.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

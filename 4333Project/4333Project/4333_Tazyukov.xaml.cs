@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32;
+﻿using Microsoft.Office.Interop.Excel;
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -14,40 +15,39 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace _4333Project
-{
+namespace _4333Project {
     /// <summary>
     /// Interaction logic for _4333_Tazyukov.xaml
     /// </summary>
-    public partial class _4333_Tazyukov : Window
-    {
-        public _4333_Tazyukov()
-        {
+    public partial class _4333_Tazyukov : System.Windows.Window {
+        public _4333_Tazyukov() {
             InitializeComponent();
         }
 
-        private void ButtonImport_Click(object sender, RoutedEventArgs e)
-        {
-            OpenFileDialog openFileDialog = new OpenFileDialog()
-            {
+        private void ButtonImport_Click(object sender, RoutedEventArgs e) {
+            // Getting data from Excel
+            OpenFileDialog openFileDialog = new OpenFileDialog() {
                 DefaultExt = "*.xls;*.xlsx",
                 Filter = "файл Excel (Spisok.xlsx)|*.xlsx",
                 Title = "Выберите файл базы данных"
             };
-            openFileDialog.ShowDialog();
-            var list = ExelReader.Read(openFileDialog.FileName);
+            openFileDialog.ShowDialog(); // implicitly changes `FileName` property of the openFileDialog object
+            var data = ExcelReader.Read(openFileDialog.FileName);
 
-            const string connectionString = "Server=DESKTOP-40D8MST\\Maksim;Database=test_DB;Trusted_Connection=True;";
-
-            using(SqlConnection connection = new SqlConnection(connectionString))
-            {
-                //DataBaseInteractor.Copy(list, connection);
-
-                using(SqlCommand command = new SqlCommand("INSERT INTO user VALUES (1, 2, 3, 4, 5)", connection))
-                {
-                    command.ExecuteNonQuery();
-                }
-            }
+            // Opening the connection
+            var connection = new SqlConnection(DBInteractor.connectionString);
+            
+            using (connection) {
+                connection.Open();
+                
+                new Instruction {
+                    Callable = DBInteractor.InitCommand,
+                    args = new object[] {
+                        "INSERT INTO user VALUES (1, 2, 3, 4, 5)",
+                        connection
+                    }
+                }.Execute();
+            };
         }
     }
 }
